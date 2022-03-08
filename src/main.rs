@@ -4,6 +4,7 @@ mod move_closure;
 mod multiple_producer_clone;
 mod mutex;
 mod ownership;
+mod smart_pointers;
 
 fn main() {
     //join::run();
@@ -11,5 +12,6 @@ fn main() {
     //data_transfer::run();
     //ownership::run();
     //multiple_producer_clone::run();
-    mutex::run();
+    //mutex::run();
+    smart_pointers::run();
 }
