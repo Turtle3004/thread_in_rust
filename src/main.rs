@@ -1,4 +1,5 @@
 mod data_transfer;
+mod drop_trait;
 mod join;
 mod move_closure;
 mod multiple_producer_clone;
@@ -13,5 +14,6 @@ fn main() {
     //ownership::run();
     //multiple_producer_clone::run();
     //mutex::run();
-    smart_pointers::run();
+    //smart_pointers::run();
+    drop_trait::run();
 }
